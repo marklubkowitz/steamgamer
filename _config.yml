@@ -1,0 +1,81 @@
+# Setup
+title: Steamgamer
+description: A curated collection of websites and tools for Steam users.
+tagline: A curated collection of websites and tools for Steam users.
+
+# Paths
+# use site.path in your templates to make it work for both protocols e.g. http and https
+# use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+path: /steamgamer
+github: 'https://github.com/nihilor/steamgamer'
+baseurl: '/steamgamer'
+url: 'https://nihilor.github.io/steamgamer'
+footer: 'Designed, built, and maintained by <a href="http://twitter.com/marklubkowitz">@marklubkowitz</a>. Based upon Kurator, a jekyll theme, by <a href="http://twitter.com/marklubkowitz">@marklubkowitz</a>.<br>Code licensed under <a href="https://github.com/nihilor/steamgamer/blob/master/LICENSE">MIT</a>. Content licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>'
+
+# Google Analytics
+googleanalytics: 'UA-57176536-1'
+
+# Profiles
+profiles:
+    - name: Twitter
+      icon: fa-twitter
+      link: http://twitter.com/steamgamer_de
+    - name: Facebook
+      icon: fa-facebook 
+      link: http://facebook.com/steamr.de
+    - name: Google+
+      icon: fa-google-plus 
+      link: https://plus.google.com/+SteamgamerDe
+    - name: Product Hunt
+      icon: fa-product-hunt
+      link: 
+    - name: RSS
+      icon: fa-rss 
+      link: http://www.steamgamer.de/feed.xml
+    - name: Github
+      icon: fa-github 
+      link: https://github.com/nihilor/steamgamer
+        
+
+# OpenGraph
+opengraph:
+    locale: en_US
+    type: website
+    title: Curated content for Steam users - Steamgamer
+    description: A curated collection of websites and tools for Steam users.
+    url: 'http://nihilor.github.io/steamgamer'
+    site_name: Steamgamer
+    image:
+
+# About/contact
+author:
+    name: Mark Lubkowitz
+    url: https://mlu.io
+    
+# Call to Action on Index
+cta:
+    title: Contribute!
+    text: Support us. Submit your site on Gihub!
+    link: https://github.com/nihilor/steamgamer
+    linktext: Fork us on Github
+
+# Gems
+gems:
+    - jekyll-paginate
+
+# Collection
+collections:
+    curation:
+        output: true
+
+# Others
+markdown: kramdown
+kramdown:
+    auto_ids: true
+sass:
+    sass_dir: css
+    style: compressed
+exclude:
+- README.md
+safe: true
+lsi: false
